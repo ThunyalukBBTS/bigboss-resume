@@ -5,7 +5,7 @@ import MCSLogo from "@/images/MCSLogo.png"
 export default function Education() {
     return (
         <div className="bg-gray-900" id="education">
-            <div className="mx-auto max-w-2xl max-h-full py-18 px-8 pt-28">
+            <div className="mx-auto max-w-screen-md max-h-full py-18 px-8 pt-28">
                 <div className="text-center mb-10">
                     <h1 className="text-4xl text-blue-500 font-medium">Education</h1>
                 </div>

@@ -1,11 +1,9 @@
-import Image from "next/image";
-
 // reference : https://github.com/tandpfun/skill-icons
 
 export default function Skills() {
     return (
         <div className="bg-gray-900" id="skills">
-            <div className="mx-auto max-w-2xl max-h-full py-18 pb-28 px-8 pt-28">
+            <div className="mx-auto max-w-2xl max-h-full py-18 pb-16 px-8 pt-28">
                 <div className="text-center mb-10">
                     <h1 className="text-4xl text-blue-500 font-medium mb-5">Skills</h1>
                     <h1 className="text-3xl text-white font-medium mb-5">Hard Skills</h1>
@@ -21,7 +19,7 @@ export default function Skills() {
                     <h1 className="text-2xl text-gray-300 font-normals my-1 mt-5">Others</h1>
                     <img className="mx-auto mt-5" alt="skillicons" src="https://skillicons.dev/icons?i=vscode,git,github,gitlab,gcp&theme=light" ></img>
                     <h1 className="text-3xl text-white font-medium mt-8 mb-5">Soft Skills</h1>
-                    <ul class="max-w-md space-y-1 text-start mx-auto text-xl text-gray-500 list-disc list-inside dark:text-gray-400">
+                    <ul className="max-w-md space-y-1 text-start mx-auto text-xl text-gray-500 list-disc list-inside dark:text-gray-400">
                         <li>
                             Creativity
                         </li>

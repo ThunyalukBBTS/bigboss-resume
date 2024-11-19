@@ -3,6 +3,7 @@ import NavBar from "@/components/navbar"
 import MainContent from "@/components/maincontent";
 import Education from "@/components/education";
 import Skills from "@/components/skills";
+import Achievement from "@/components/achievement";
 
 export default function Home() {
   return (
@@ -10,7 +11,8 @@ export default function Home() {
       <NavBar />
       <MainContent />
       <Education />
-      <Skills/>
+      <Skills />
+      <Achievement />
     </div>
   );
 }
