@@ -5,9 +5,9 @@ import MCSLogo from "@/images/MCSLogo.png"
 export default function Education() {
     return (
         <div className="bg-gray-900" id="education">
-            <div className="mx-auto max-w-2xl max-h-full py-18 pb-36 px-8 pt-28">
+            <div className="mx-auto max-w-2xl max-h-full py-18 px-8 pt-28">
                 <div className="text-center mb-10">
-                    <h1 className="text-4xl text-white font-medium">Education</h1>
+                    <h1 className="text-4xl text-blue-500 font-medium">Education</h1>
                 </div>
                 <ol className="relative border-s border-gray-200 dark:border-gray-700">
 
@@ -28,7 +28,7 @@ export default function Education() {
                     </li>
                     <li className="ms-4">
                         <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-                        <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">April 2022</time>
+                        <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">2019 - 2022</time>
                         <div className="grid grid-cols-6">
                             <div className="col-start-1 col-span-5 ...">
                             <h3 className="text-lg font-medium text-gray-500 dark:text-gray-400">High school</h3>
