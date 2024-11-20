@@ -6,7 +6,7 @@ import Image from "next/image";
 
 // template reference: https://flowbite.com/docs/components/navbar/
 
-export default function NavBar() {
+export default function NavBar(props) {
     const [menuOpen, setMenuOpen] = useState(false);
 
     const toggleMenu = () => {
@@ -60,7 +60,7 @@ export default function NavBar() {
                             <li>
                                 <a
                                     href="#home"
-                                    className="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500"
+                                    className={`block py-2 px-3 ${props.activeSection === "MainContent" ? "text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500" : "text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700" } `}
                                     aria-current="page"
                                     onClick={toggleMenu}
                                 >
@@ -70,7 +70,7 @@ export default function NavBar() {
                             <li>
                                 <a
                                     href="#education"
-                                    className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                                    className={`block py-2 px-3 ${props.activeSection === "Education" ? "text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500" : "text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700" } `}
                                     onClick={toggleMenu}
                                 >
                                     Education
@@ -79,7 +79,7 @@ export default function NavBar() {
                             <li>
                                 <a
                                     href="#skills"
-                                    className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                                    className={`block py-2 px-3 ${props.activeSection === "Skills" ? "text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500" : "text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700" } `}
                                     onClick={toggleMenu}
                                 >
                                     Skills
@@ -88,7 +88,7 @@ export default function NavBar() {
                             <li>
                                 <a
                                     href="#achievement"
-                                    className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                                    className={`block py-2 px-3 ${props.activeSection === "Achievement" ? "text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500" : "text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700" } `}
                                     onClick={toggleMenu}
                                 >
                                     Achievement
@@ -97,7 +97,7 @@ export default function NavBar() {
                             <li>
                                 <a
                                     href="#projects"
-                                    className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                                    className={`block py-2 px-3 ${props.activeSection === "Projects" ? "text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500" : "text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700" } `}
                                     onClick={toggleMenu}
                                 >
                                     Projects
@@ -106,7 +106,7 @@ export default function NavBar() {
                             <li>
                                 <a
                                     href="#activities"
-                                    className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                                    className={`block py-2 px-3 ${props.activeSection === "Activities" ? "text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500" : "text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700" } `}
                                     onClick={toggleMenu}
                                 >
                                     Activities

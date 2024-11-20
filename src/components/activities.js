@@ -1,7 +1,3 @@
-'use client'
-
-import { useEffect, useRef } from "react";
-
 import Image from "next/image";
 import Modal from "@/components/modal"
 import Proj1 from "@/images/Proj1.jpg"
@@ -10,33 +6,11 @@ import GDGLogo from "@/images/GDGLogo.jpg"
 import GDGimg from "@/images/GDG.jpg"
 
 export default function Activities() {
-    const divRef = useRef(null);
-
-    useEffect(() => {
-        const observer = new IntersectionObserver(
-            (entries) => {
-                if (entries[0].isIntersecting) {
-                    console.log("Activities");
-                }
-            },
-            { threshold: 0.5 }
-        );
-
-        if (divRef.current) {
-            observer.observe(divRef.current);
-        }
-
-        return () => {
-            if (divRef.current) {
-                observer.unobserve(divRef.current);
-            }
-        };
-    }, []);
 
     return (
         <div className="bg-white" id="activities">
             <hr></hr>
-            <div className="mx-auto max-w-screen-lg max-h-full py-18 pb-16 px-8 pt-20" ref={divRef}>
+            <div className="mx-auto max-w-screen-lg max-h-full py-18 pb-16 px-8 pt-20">
                 <div className="text-center mb-10">
                     <h1 className="text-5xl text-blue-700 font-medium mb-5">Activities</h1>
                     <div className="md:grid md:grid-cols-6">
@@ -59,7 +33,7 @@ export default function Activities() {
                         <div className="md:col-start-1 md:col-span-4 md:pe-5 text-start">
                             <div className="flex items-center">
                                 <Image src={GDGLogo} alt="GDG" className="w-20 h-20 me-3 rounded-full"></Image>
-                                <h3 className="text-3xl font-medium text-gray-800">Core Ceam - Google
+                                <h3 className="text-3xl font-medium text-gray-800">Core Team - Google
                                     Developer Groups
                                     (GDG) on Campus, KKU</h3>
                             </div>

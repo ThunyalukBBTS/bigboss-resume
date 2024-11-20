@@ -1,6 +1,6 @@
 'use client'
 
-import { useEffect, useRef } from "react";
+import React,{ useEffect, useRef } from "react";
 
 import Image from "next/image";
 import Modal from "@/components/modal"
@@ -9,37 +9,11 @@ import Proj1 from "@/images/Proj1.jpg"
 import Proj2 from "@/images/Proj2.jpg"
 
 export default function Projects() {
-    const divRef = useRef(null);
-
-    useEffect(() => {
-        const observer = new IntersectionObserver(
-            (entries) => {
-                if (entries[0].isIntersecting) {
-                    console.log("test");
-                }
-            },
-            { threshold: 0.5 }
-        );
-
-        if (divRef.current) {
-            observer.observe(divRef.current);
-        }
-
-        return () => {
-            if (divRef.current) {
-                observer.unobserve(divRef.current);
-            }
-        };
-    }, []);
-
-    const display = () => {
-        console.log("PP")
-    }
 
     return (
         <div className="bg-white" id="projects">
             <hr></hr>
-            <div className="mx-auto max-w-screen-lg max-h-full py-18 pb-16 px-8 pt-20" ref={divRef}>
+            <div className="mx-auto max-w-screen-lg max-h-full py-18 pb-16 px-8 pt-20">
                 <div className="text-center mb-10">
                     <h1 className="text-5xl text-blue-700 font-medium mb-5">Projects</h1>
                     <ol className="relative text-start border-s border-gray-300">
