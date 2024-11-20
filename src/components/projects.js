@@ -80,11 +80,9 @@ export default function Projects() {
                                         rate, and report the links. This work is a project in the Advanced Computer
                                         Programming course and has been copyrighted with the Department of
                                         Intellectual Property.</p>
-                                        <div className="flex">
-                                        <div className="flex items-center mt-1">
-                                            <p className="ms-auto me-2 text-lg font-light text-gray-500">Tech stacks: </p>
-                                            <img className="me-auto" alt="skillicons" src="https://skillicons.dev/icons?i=js,react,css,bootstrap,github,firebase&theme=dark" ></img>
-                                        </div>
+                                    <div className="md:flex items-center mt-1">
+                                        <p className="ms-auto md:ms-0 me-2 text-lg font-light text-gray-500">Tech stacks: </p>
+                                        <img className="me-auto" alt="skillicons" src="https://skillicons.dev/icons?i=js,react,css,bootstrap,github,firebase&theme=dark" ></img>
                                     </div>
                                     <div className="flex mt-2">
                                         <a href="https://xzam-26219.web.app/" className="text-white focus:ring-4 focus:ring-blue-300 font-normal text-base rounded-lg px-3 py-2 me-2 bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">Visit website</a>
