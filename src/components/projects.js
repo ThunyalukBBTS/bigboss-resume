@@ -38,18 +38,19 @@ export default function Projects() {
 
     return (
         <div className="bg-white" id="projects">
+            <hr></hr>
             <div className="mx-auto max-w-screen-lg max-h-full py-18 pb-16 px-8 pt-20" ref={divRef}>
                 <div className="text-center mb-10">
                     <h1 className="text-5xl text-blue-700 font-medium mb-5">Projects</h1>
-                    <ol className="relative text-start border-s border-gray-700">
+                    <ol className="relative text-start border-s border-gray-300">
 
                         <li className="mb-10 ms-4">
-                            <div className="absolute w-3 h-3 rounded-full mt-1.5 -start-1.5 border border-gray-700 bg-gray-700"></div>
+                            <div className="absolute w-3 h-3 rounded-full mt-1.5 -start-1.5 border border-gray-500 bg-gray-500"></div>
                             <time className="mb-1 text-base font-normal leading-none text-gray-500">Sep 2024 - Oct 2024</time>
                             <div className="md:grid md:grid-cols-6">
                                 <div className="md:col-start-1 md:col-span-4 md:pe-5">
                                     <h3 className="text-3xl font-medium text-gray-800"> Disaster notification system</h3>
-                                    <h3 className="text-2xl font-normal text-gray-500">as an Embedded system developer</h3>
+                                    <h3 className="text-2xl font-normal text-gray-500">work as an Embedded system developer</h3>
                                     <p className="text-xl font-light text-gray-500">This is a project in the microprocessors and interfacing course. To detect
                                         disasters like earthquakes, fires, and floods, use sensors that are connected
                                         to the ESP32 board. There is a web dashboard that displays status
@@ -70,12 +71,12 @@ export default function Projects() {
                             </div>
                         </li>
                         <li className="mb-10 ms-4">
-                            <div className="absolute w-3 h-3 rounded-full mt-1.5 -start-1.5 border border-gray-700 bg-gray-700"></div>
+                            <div className="absolute w-3 h-3 rounded-full mt-1.5 -start-1.5 border border-gray-500 bg-gray-500"></div>
                             <time className="mb-1 text-base font-normal leading-none text-gray-500">Dec 2022 - Mar 2023</time>
                             <div className="md:grid md:grid-cols-6">
                                 <div className="md:col-start-1 md:col-span-4 md:pe-5">
                                     <h3 className="text-3xl font-medium text-gray-800">XZAM website</h3>
-                                    <h3 className="text-2xl font-normal text-gray-500"> as a Full-stack developer</h3>
+                                    <h3 className="text-2xl font-normal text-gray-500">work as a Full-stack developer</h3>
                                     <p className="text-xl font-light text-gray-500">XZAM is a website that collects links to high school exams. Users can share,
                                         rate, and report the links. This work is a project in the Advanced Computer
                                         Programming course and has been copyrighted with the Department of
