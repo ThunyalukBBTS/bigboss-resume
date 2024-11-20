@@ -15,11 +15,11 @@ export default function NavBar() {
 
     return (
         <div>
-            <nav className="dark:bg-gray-900 fixed w-full z-20 top-0 start-0 transition ease-in-out delay-150">
+            <nav className="bg-gray-900 fixed w-full z-20 top-0 start-0 transition ease-in-out delay-150">
                 <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
                     <a className="flex items-center space-x-3 rtl:space-x-reverse">
                         <Image src={UserIcon} className="h-8 w-8" alt="ICON" />
-                        <span className="self-center text-2xl font-medium whitespace-nowrap dark:text-white">
+                        <span className="self-center text-2xl font-medium whitespace-nowrap text-white">
                             Resume | Bigboss
                         </span>
                     </a>
@@ -28,7 +28,7 @@ export default function NavBar() {
                             onClick={toggleMenu}
                             data-collapse-toggle="navbar-sticky"
                             type="button"
-                            className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                            className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-400 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
                             aria-controls="navbar-sticky"
                             aria-expanded={menuOpen}
                         >

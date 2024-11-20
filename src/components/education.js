@@ -12,13 +12,13 @@ export default function Education() {
                 <ol className="relative border-s border-gray-200 dark:border-gray-700">
 
                     <li className="mb-10 ms-4">
-                        <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-orange-500"></div>
-                        <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">2022 - Present</time>
+                        <div className="absolute w-3 h-3 rounded-full mt-1.5 -start-1.5 border border-gray-900 bg-orange-500"></div>
+                        <time className="mb-1 text-sm font-normal leading-none text-gray-500">2022 - Present</time>
                         <div className="grid grid-cols-6">
                             <div className="col-start-1 col-span-5 ...">
-                            <h3 className="text-lg font-medium text-gray-500 dark:text-gray-400">Bachelor's degree</h3>
-                        <h3 className="text-xl font-medium text-gray-900 dark:text-white mb-1">Khon Kaen University, Computer Engineering</h3>
-                        <p className="text-base font-normal text-gray-500 dark:text-gray-400">GPA: 3.78 (2022 semester 1 - 2023 semester 2)</p>
+                            <h3 className="text-lg font-medium text-gray-400">Bachelor's degree</h3>
+                        <h3 className="text-xl font-medium text-white mb-1">Khon Kaen University, Computer Engineering</h3>
+                        <p className="text-base font-normal text-gray-400">GPA: 3.78 (2022 semester 1 - 2023 semester 2)</p>
                             </div>
                             <div className="col-end-7 col-span-1 ...">
                                 <Image src={ENKKUlogo} alt="EN-KKU Logo"></Image>

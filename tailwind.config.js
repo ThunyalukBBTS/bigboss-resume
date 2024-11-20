@@ -11,10 +11,10 @@ module.exports = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily: {
+        mitr: ['Mitr', 'Prompt', 'sans-serif'],
+      }
     },
-    fontFamily: {
-      
-    }
   },
   plugins: [],
 };

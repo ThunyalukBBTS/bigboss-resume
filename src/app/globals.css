@@ -22,5 +22,5 @@ html {
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: 'Mitr';
+  font-family: 'Mitr', 'Prompt', sans-serif;
 }
