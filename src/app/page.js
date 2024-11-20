@@ -14,7 +14,6 @@ export default function Home() {
       <Education />
       <Skills />
       <Achievement />
-      <hr></hr>
       <Projects />
     </div>
   );
