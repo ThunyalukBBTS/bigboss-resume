@@ -4,6 +4,7 @@ import MainContent from "@/components/maincontent";
 import Education from "@/components/education";
 import Skills from "@/components/skills";
 import Achievement from "@/components/achievement";
+import Projects from "@/components/projects";
 
 export default function Home() {
   return (
@@ -13,6 +14,8 @@ export default function Home() {
       <Education />
       <Skills />
       <Achievement />
+      <hr></hr>
+      <Projects />
     </div>
   );
 }

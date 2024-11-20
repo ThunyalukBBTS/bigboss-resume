@@ -5,7 +5,7 @@ export default function Skills() {
         <div className="bg-gray-900" id="skills">
             <div className="mx-auto max-w-2xl max-h-full py-18 pb-16 px-8 pt-28">
                 <div className="text-center mb-10">
-                    <h1 className="text-4xl text-blue-500 font-medium mb-5">Skills</h1>
+                    <h1 className="text-5xl text-blue-500 font-medium mb-5">Skills</h1>
                     <h1 className="text-3xl text-white font-medium mb-5">Hard Skills</h1>
                     <h1 className="text-2xl text-gray-300 font-normals my-1">Programming Languages</h1>
                     <div className="flex mx-auto mt-5">
