@@ -12,7 +12,7 @@ export default function Education() {
                 <ol className="relative border-s border-gray-200 dark:border-gray-700">
 
                     <li className="mb-10 ms-4">
-                        <div className="absolute w-3 h-3 rounded-full mt-1.5 -start-1.5 border border-gray-900 bg-orange-500"></div>
+                        <div className="absolute w-3 h-3 rounded-full mt-1.5 -start-1.5 border border-gray-900 bg-blue-500"></div>
                         <time className="mb-1 text-sm font-normal leading-none text-gray-500">2022 - Present</time>
                         <div className="grid grid-cols-6">
                             <div className="col-start-1 col-span-5 ...">

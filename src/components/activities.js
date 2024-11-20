@@ -1,9 +1,9 @@
 import Image from "next/image";
 import Modal from "@/components/modal"
-import Proj1 from "@/images/Proj1.jpg"
 import CESCaLogo from "@/images/CESCaLogo.jpg"
 import GDGLogo from "@/images/GDGLogo.jpg"
 import GDGimg from "@/images/GDG.jpg"
+import CESCaWork from "@/images/CESCaWork.jpg"
 
 export default function Activities() {
 
@@ -24,9 +24,12 @@ export default function Activities() {
                             <p className="text-xl font-light text-gray-500">Volunteer to share knowledge
                                 about computer engineering to
                                 high school students.</p>
+                            <div className="flex mt-2">
+                                <a href="https://www.facebook.com/CESCa.KKU/" className="text-white focus:ring-4 focus:ring-blue-300 font-normal text-base rounded-lg px-3 py-2 me-2 bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">Facebook fanpage</a>
+                            </div>
                         </div>
                         <div className="md:col-end-7 md:col-span-2 mt-5 md:mt-0">
-                            <Modal src={Proj1} />
+                            <Modal src={CESCaWork} />
                         </div>
                     </div>
                     <div className="md:grid md:grid-cols-6 mt-5">

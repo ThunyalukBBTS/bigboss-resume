@@ -33,7 +33,7 @@ export default function Projects() {
                                         detection</p>
                                     <div className="flex">
                                         <div className="flex items-center mt-1">
-                                            <p className="ms-auto me-2 text-lg font-light text-gray-500">Tech stacks: </p>
+                                            <p className="ms-auto me-2 text-lg font-light text-gray-500">Tech stack: </p>
                                             <img className="me-auto" alt="skillicons" src="https://skillicons.dev/icons?i=arduino,c,github&theme=dark" ></img>
                                             <Image src={mqtt} alt="MQTT" className="w-16 ms-2" />
                                         </div>
@@ -56,7 +56,7 @@ export default function Projects() {
                                         Programming course and has been copyrighted with the Department of
                                         Intellectual Property.</p>
                                     <div className="md:flex items-center mt-1">
-                                        <p className="ms-auto md:ms-0 me-2 text-lg font-light text-gray-500">Tech stacks: </p>
+                                        <p className="ms-auto md:ms-0 me-2 text-lg font-light text-gray-500">Tech stack: </p>
                                         <img className="me-auto" alt="skillicons" src="https://skillicons.dev/icons?i=js,react,css,bootstrap,github,firebase&theme=dark" ></img>
                                     </div>
                                     <div className="flex mt-2">

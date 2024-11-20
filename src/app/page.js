@@ -1,7 +1,5 @@
 "use client"
-
-import Image from "next/image";
-import { useEffect, useRef,useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import NavBar from "@/components/navbar"
 import MainContent from "@/components/maincontent";
 import Education from "@/components/education";
@@ -9,10 +7,11 @@ import Skills from "@/components/skills";
 import Achievement from "@/components/achievement";
 import Projects from "@/components/projects";
 import Activities from "@/components/activities";
+import Footer from "@/components/footer";
 
 export default function Home() {
   const sections = useRef({});
-  const [activeSection,setActiveSection] = useState("");
+  const [activeSection, setActiveSection] = useState("");
 
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -37,7 +36,7 @@ export default function Home() {
 
   return (
     <div>
-      <NavBar activeSection={activeSection}/>
+      <NavBar activeSection={activeSection} />
       <div id="MainContent" ref={(el) => (sections.current.MainContent = el)}>
         <MainContent />
       </div>
@@ -56,6 +55,7 @@ export default function Home() {
       <div id="Activities" ref={(el) => (sections.current.Activities = el)}>
         <Activities />
       </div>
+      <Footer />
     </div>
   );
 }
