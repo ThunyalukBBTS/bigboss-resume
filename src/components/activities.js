@@ -34,7 +34,7 @@ export default function Activities() {
     }, []);
 
     return (
-        <div className="bg-white" id="projects">
+        <div className="bg-white" id="activities">
             <hr></hr>
             <div className="mx-auto max-w-screen-lg max-h-full py-18 pb-16 px-8 pt-20" ref={divRef}>
                 <div className="text-center mb-10">
